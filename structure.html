@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Currency Converter</title>
+    <title>Currency-Converter</title>
     <link rel="stylesheet" href="design.css" />
     <link
       rel="stylesheet"
@@ -11,24 +11,27 @@
       integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
+      
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap" rel="stylesheet">
   </head>
+  
   <body>
     <div class="container">
-      <h2>Currency COnverter</h2>
+      <h2 >CURRENCY CONVERTER</h2>
       <form>
         <div class="amount">
-          <p>Entre amount</p>
-          <input type="text" value="10" />
+          <p>ENTRE AMOUNT</p>
+          <input type="text" value="1" />
         </div>
         <div class="dropdown">
           <div class="from">
             <p>From</p>
             <div class="select-container">
               <img src="https://flagsapi.com/US/flat/64.png" alt="" />
-              <select name="from" id="from">
-               
-              </select>
+              <select name="from" id="from"></select>
             </div>
           </div>
           <i class="fa-solid fa-right-left"></i>
@@ -37,19 +40,17 @@
             <p>To</p>
             <div class="select-container">
               <img src="https://flagsapi.com/IN/flat/64.png" alt="" />
-              <select name="to" id="to">
-                
-              </select>
+              <select name="to" id="to"></select>
             </div>
           </div>
         </div>
-        <div class="message">1 USD = 82INR</div>
+        
         <button class="btn">get exchange rate</button>
+        <div class="message">TOTAL CONVERTED AMOUNT</div>
       </form>
     </div>
     <script src="AllCountry.js"></script>
 
     <script src="script.js"></script>
-   
-  </body> 
+  </body>
 </html>
