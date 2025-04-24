@@ -160,5 +160,3 @@ const countryList = {
     ZWD: "ZW",
   };
   
-// for(country in countryList){
-//   console.log(country,countryList[country])//currency code and country code
